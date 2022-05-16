@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+      .container{
+          background-color: darkcyan;
+      } 
+      .container__cadastro{
+          background-color:beige;
+      }
+      .cadastro__input{
+          background-color:rgba(255, 160, 122, 0.5);
+          border-radius: 5px;
+        } 
+      .cadastro{
+          padding: 05px;
+          margin-top: 20px;
+          border-radius:5px;
+      }
+      .cadastro__button{
+          background-color:bisque;
+          border-radius: 5px;
+
+      }
+      .dados__input{
+          background-color:darkseagreen;
+          border-radius: 5px;
+      }
+      .dados__button{
+          background-color:rgba(196, 255, 223, 0.979);
+          border-radius: 5px;
+      }
+    </style>
+</head>
+<body>
+   <div class="container">
+       <div class="container__cadastro cadastro">
+        <p>Formulário de cadastro</p>
+            <form action="">
+
+                <label for="Nome">Nome</label>
+                <input type="text"nome"nome" class="cadastro__input"/>
+                <label for="Sobrenome">Sobrenome</label>
+                <input type="tex"nome"Sobrenome class="cadastro__input"/>
+                <label for="Email">Email</label>
+                <input type="Email"nome"Email" class="cadastro__input"/>
+                <label for="Senha">Senha</label>
+                <input type="password"nome "Senha" class="cadastro__input"/>
+                <label for="Confirmar">Confirmar Senha</label>
+                <input type="password"nome "Confirmar Senha" class="cadastro__input"/>
+                <input type="submit" value="Enviar" class="cadastro__button"/>
+ 
+            </form>
+        </div> 
+        <div class="container__dados dados">
+            <form action="">
+                <p>Dados pessoais</p>
+                <label for="Endereço">Endereço</label>
+                <input type="text"nome "Endereço" class="dados__input"/>
+                <label for="Numero">Numero</label>
+                <input type="text"nome "Numero" class="dados__input"/>
+                <label for="Complemento">Complemento</label>
+                <input type="text"nome "Complemento" class="dados__input"/>
+                <label for="Bairro">Bairro</label>
+                <input type="text" nome "Bairro" class="dados__input"/>
+                <label for="Cidade">Cidade</label>
+                <input type="text"nome "Cidade" class="dados__input"/>
+                <input type="submit" value="Enviar" class="dados__button"/>
+
+            </form>
+        </div>   
+   </div> 
+</body>
+</html>
